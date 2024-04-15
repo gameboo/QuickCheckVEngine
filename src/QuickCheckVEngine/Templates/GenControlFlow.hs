@@ -36,6 +36,8 @@ module QuickCheckVEngine.Templates.GenControlFlow (
   gen_rv32_i_controlflow
 ) where
 
+import InstrCodec
+import Test.QuickCheck
 import RISCV.RV32_I
 import QuickCheckVEngine.Template
 import QuickCheckVEngine.Templates.Utils

@@ -80,6 +80,7 @@ module QuickCheckVEngine.Templates.Utils.General (
 
 import qualified Data.Bits.Bitwise as BW
 import Test.QuickCheck hiding ((.&.))
+import InstrCodec
 import QuickCheckVEngine.Template
 import RISCV
 import Data.Bits

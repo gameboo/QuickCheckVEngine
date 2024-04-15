@@ -71,7 +71,6 @@ type HPMCounterCSRIdx = Integer
 type HPMEventSelCSRIdx = Integer
 
 -- | the number of supported HPM counters
-nHPMCounters :: Int
 nHPMCounters = 29
 
 -- | Turns an 'HPMCounterIdx' into an 'HPMCounterCSRIdx' for hpmcounter
